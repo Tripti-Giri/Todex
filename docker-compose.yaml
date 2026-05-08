@@ -1,5 +1,17 @@
 services:
 
+ flask:
+   build: ./backend
+   container_name : todex_flask
+   ports: 
+   - "5000:5000"
+   environment:
+   - DATABASE_URL=postgresql://tripti:abcd123@db:5432/todex
+   depends_on:
+    db:
+     condition: service_healthy
+   restart: always
+
  db:
   image : postgres:15
   container_name: todex_db
