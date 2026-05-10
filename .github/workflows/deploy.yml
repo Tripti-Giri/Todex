@@ -48,7 +48,7 @@ jobs:
             with:
               context: ./backend
               push : true
-              tags : ${{secrets.DOCKER_USERNAME}}/todex-flask:latest
+              tags : ${{secrets.DOCKERHUB_USERNAME}}/todex-flask:latest
 
     deploy:
         runs-on: ubuntu-latest
