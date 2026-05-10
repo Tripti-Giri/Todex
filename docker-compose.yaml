@@ -5,6 +5,8 @@ services:
    container_name : todex_flask
    ports: 
    - "5000:5000"
+   env_file:
+   - .env
    environment:
    - DATABASE_URL=postgresql://tripti:abcd123@db:5432/todex
    depends_on:
