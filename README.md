@@ -12,18 +12,18 @@ CI/CD deployment to AWS EC2 via GitHub Actions.
 ## Screenshots
 
 ### Task Dashboard
-![Task dashboard](./images/dashboard_1.png)
-![Task dashboard](./images/dashboard_2.png)
-![Task dashboard](./images/dashboard3.png)
+![Task dashboard](images/dashboard_1.png)
+![Task dashboard](images/dashboard_2.png)
+![Task dashboard](images/dashboard3.png)
 
 ### GitHub Actions Pipeline — All 3 Jobs Green
-![CI/CD Pipeline](./images/CICD_pipeline.png)
+![CI/CD Pipeline](images/CICD_pipeline.png)
 
 ### EC2 Running Containers
-![EC2 Containers](./images/ec2-container.png)
+![EC2 Containers](images/ec2-container.png)
 
 ### API Response (Postman)
-![API Response](./images/api_response.png)
+![API Response](images/api_response.png)
 
 ---
 
@@ -155,7 +155,7 @@ Stage 3 — Deploy
   - Restarts containers with zero downtime
 ```
 
-![ci/cd pipeline](./images/CICD_pipeline.png)
+![ci/cd pipeline](images/CICD_pipeline.png)
 
 ---
 
@@ -188,7 +188,7 @@ GET  http://3.111.42.119:5001/api/todos/stats
 > ⚠️ EC2 instance currently stopped to manage AWS free tier costs.
 > Start the instance and run `docker-compose up -d` to bring it back live.
 
-![EC2 Containers](./images/ec2-container.png)
+![EC2 Containers](images/ec2-container.png)
 
 ---
 
@@ -259,7 +259,7 @@ http://localhost:5001/api/todos
 # Open frontend:
 Open index.html in your browser
 
-![frontend](./images/frontend.png)
+![frontend](images/frontend.png)
 
 > ⚠️ when you run it locally on your pc it is unable to load server because ec2 server is stopped.
 > ⚠️Could not connect to server.
