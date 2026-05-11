@@ -259,12 +259,12 @@ http://localhost:5001/api/todos
 # Open frontend:
 Open index.html in your browser
 
-![frontend](images/frontend.png)
 
 > ⚠️ when you run it locally on your pc it is unable to load server because ec2 server is stopped.
 > ⚠️Could not connect to server.
 
 ```
+![frontend](images/frontend.png)
 
 ### Run Tests Locally
 ```bash
