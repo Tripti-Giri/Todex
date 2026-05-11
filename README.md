@@ -48,7 +48,7 @@ Push to main → pytest → Docker build → DockerHub → EC2 deploy
 
 -----------------------------------------------------------------
 | Layer              |  Technology                              |
------------------------------------------------------------------
+|--------------------|------------------------------------------|
 | Frontend           | HTML5, CSS3, JavaScript (Vanilla)        |
 | Backend            |  Python, Flask, Flask-SQLAlchemy         |
 | Database           |  PostgreSQL 15                           |
@@ -258,6 +258,12 @@ http://localhost:5001/api/todos
 
 # Open frontend:
 Open index.html in your browser
+
+![frontend](./images/frontend.png)
+
+> ⚠️ when you run it locally on your pc it is unable to load server because ec2 server is stopped.
+> ⚠️Could not connect to server.
+
 ```
 
 ### Run Tests Locally
