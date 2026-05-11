@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // ── CONFIG ─────────────────────────────────────────────
-    const API_URL = "http://13.203.221.18:5001/api/todos";
+    const API_URL = "http://3.111.42.119:5001/api/todos";
 
     // ── DOM Elements ───────────────────────────────────────
     const taskInput       = document.getElementById("taskInput");
