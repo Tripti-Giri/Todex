@@ -5,9 +5,6 @@ A production-grade todo application built with a Vanilla JS frontend, Flask REST
 **Live Frontend:** `http://todex-bucket.s3-website.ap-south-1.amazonaws.com`
 **Live API:** `http://43.204.232.15:5001/api/todos`
 
-> ⚠️ EC2 instance is stopped to avoid AWS charges.
-> To run locally, follow the [Running Locally](#running-locally) section below.
-
 ---
 
 ## Screenshots
@@ -17,7 +14,7 @@ A production-grade todo application built with a Vanilla JS frontend, Flask REST
 ![Task dashboard](images/dashboard_2.png)
 ![Task dashboard](images/dashboard3.png)
 
-### GitHub Actions Pipeline — All 3 Jobs Green
+### GitHub Actions Pipeline — All 4 Jobs Green
 ![CI/CD Pipeline](images/CICD_pipeline.png)
 
 ### EC2 Running Containers
